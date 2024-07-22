@@ -783,7 +783,7 @@ const getTareasAtrasadas = (req, res) => {
 
     return {
       ...tarea,
-      dias_atrasados: diasAtrasados > 0 ? diasAtrasados - 1 : 0,
+      dias_atrasados: diasAtrasados > 0 ? diasAtrasados : 0,
     };
   });
 
