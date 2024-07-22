@@ -10,16 +10,21 @@ Date-fns: Biblioteca para manipulación y formateo de fechas.
 ## Estructura del Proyecto
 El proyecto está organizado siguiendo el patrón Modelo-Vista-Controlador (MVC):
 
-### Modelo: Define las estructuras de datos y las propiedades de las entidades. Está representado por las clases en models.
-### Vista: En el contexto de una API, la vista es la respuesta HTTP que se envía al cliente. Se maneja a través de los controladores que formatean las respuestas.
-### Controlador: Contiene la lógica de negocio, maneja las solicitudes del cliente y coordina las respuestas con los modelos. Los controladores están en la carpeta controllers.
-### Rutas: Define los endpoints de la API y mapea las solicitudes a los controladores correspondientes. Las rutas están en la carpeta routes.
+### Modelo: 
+Define las estructuras de datos y las propiedades de las entidades. Está representado por las clases en models.
+### Vista: 
+En el contexto de una API, la vista es la respuesta HTTP que se envía al cliente. Se maneja a través de los controladores que formatean las respuestas.
+### Controlador: 
+Contiene la lógica de negocio, maneja las solicitudes del cliente y coordina las respuestas con los modelos. Los controladores están en la carpeta controllers.
+### Rutas: 
+Define los endpoints de la API y mapea las solicitudes a los controladores correspondientes. Las rutas están en la carpeta routes.
 ## Instalación
 Clona el repositorio:
 
 bash
 ### Copiar código
 git clone https://github.com/Ariel454/ar_minicore_api.git
+
 cd ar_minicore_api
 
 ## Instala las dependencias:
